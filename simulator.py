@@ -43,7 +43,7 @@ def publish_data(
 
         print('Message published with status code: ' + str(response.status_code))
 
-        time.sleep(PUBLISHING_FREQUENCY_IN_SECONDS)
+        time.sleep(float(PUBLISHING_FREQUENCY_IN_SECONDS))
 
 
 if __name__ == '__main__':
